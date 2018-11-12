@@ -1,0 +1,42 @@
+PODS:
+  - R.swift (4.0.0):
+    - R.swift.Library (~> 4.0.0)
+  - R.swift.Library (4.0.0)
+  - RxBlocking (4.2.0):
+    - RxSwift (~> 4.0)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - SwiftLint (0.27.0)
+  - SwiftyBeaver (1.5.2)
+
+DEPENDENCIES:
+  - R.swift (~> 4.0.0)
+  - RxBlocking
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
+  - SwiftLint (~> 0.27.0)
+  - SwiftyBeaver (~> 1.5.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - R.swift
+    - R.swift.Library
+    - RxBlocking
+    - RxCocoa
+    - RxSwift
+    - SwiftLint
+    - SwiftyBeaver
+
+SPEC CHECKSUMS:
+  R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
+  R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
+  RxBlocking: e339d8a6e752e25ade95ff858466c55436668f59
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
+  SwiftyBeaver: 85daaaa2b3ae6e31b7b55c99430e8b91dac088af
+
+PODFILE CHECKSUM: 198a43115c43a2ff573b5a022b542b68a87f3f74
+
+COCOAPODS: 1.5.3

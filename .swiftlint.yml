@@ -1,0 +1,54 @@
+disabled_rules:
+  - trailing_whitespace
+  - identifier_name
+
+opt_in_rules:
+  - empty_count
+  - closure_end_indentation
+  - contains_over_first_not_nil
+  - empty_string
+  - fatal_error_message
+  - first_where
+  - literal_expression_end_indentation
+  - multiline_arguments
+  - multiline_function_chains
+  - multiline_parameters
+  - number_separator
+  - operator_usage_whitespace
+  - overridden_super_call
+  - override_in_extension
+  - pattern_matching_keywords
+  - private_action
+  - private_outlet
+  - prohibited_super_call
+  - redundant_type_annotation
+  - toggle_bool
+  # - trailing_closure
+  - unused_import
+  - unused_private_declaration
+  - yoda_condition
+  - modifier_order
+
+line_length:
+warning: 120
+
+function_body_length:
+warning: 60
+error: 100
+
+function_parameter_count:
+warning: 6
+error: 10
+
+file_length:
+warning: 500
+
+type_body_length:
+warning: 350
+error: 500
+
+excluded: 
+  - Carthage
+  - Pods
+  - R.generated.swift
+  - TestApp/Components
